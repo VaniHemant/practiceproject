@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:antiquewhite
+}
+
+.bg{
+    margin:auto;
+    background-image: url(image.jpg);
+    width:380px;
+    height:500px;
+    background-size: cover;
+    display:flex;
+}
+
+.content{
+    background-color: #000000bb;
+    margin-top: 85%;
+    width:100%;  
+}
+
+.title{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.des1{
+     margin-top: 10px;
+    text-align: center;
+}
+
+.des2{
+     margin-top: 5px;
+    text-align: center;
+}
+
+.icons{
+     margin-top: 10px;
+    text-align: center;
+}
+
+.btn{
+    background-color: #000000;
+    height:25%;
+    margin-top: 5px;
+    
+}
+button{
+    background-color: #000000;
+    font-size: 40px;
+    width: 100%;
+    border:none;
+}

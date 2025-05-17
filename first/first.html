@@ -19,8 +19,9 @@
         </ul>
     </div>
     <div>
-   <div id="form"> 
-    <form action="post">
+   <div id="form">
+    <div id="form1">
+    <form method="post">
         <div><h1>Feedback Form</h1></div>
         <div id="f-username">
             <label for="Username">Name :</label>
@@ -29,13 +30,38 @@
         <div id="f-email">
             <label for="Email">Email :</label>
             <input type="email" name="Email" placeholder="Enter your Email here.">
-        </div>
+        </div>  
         <div id="f-feedback">
             <label for="Feedback">Feedback :</label>
             <textarea placeholder="Enter your Feedback here" cols="15" rows="5"></textarea>
         </div>
         <div id="button"><button>Submit</button></div>
    </form>
+   </div>
+   <div id="form2">
+   <form  method="post">
+    <div class="title"><h1>Contact Form</h1></div>
+    <div class="pinfo">
+        <div class="name">
+            <label for="fullname">Enter Your FullName:</label><br>
+            <input type="text" name="name" id="fullname"><br>
+        </div>
+        <div class="bdate">
+            <label for="bdate">Enter Your DOB:</label>
+            <input type="date" name="bdate" id="bdate">
+        </div>
+        <div class="email">
+            <label for="email">Email-address:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="contactno">
+            <label for="no.">Enter Contact:</label>
+            <input type="text" name="contact" id="no">
+        </div>
+        <div id="button"> <button>Submit</button> </div>
+    </div>
+   </form>
+   </div>
 </div>
 </div>
 </div>
