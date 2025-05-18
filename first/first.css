@@ -6,10 +6,15 @@
     font-family:Helvetica;
 }
 
-#container{
+.hero{
+   display: flex;
+   
+}
+#hero1{
    height: 100%;
    width: 100%;
-    display:flexbox;
+   display: flex;
+   flex-direction:column;
 }
 
  #title {
@@ -18,6 +23,7 @@
         border-left: yellow 5px solid;
         background-color: #3f3535a3;
 }
+
  .description{
     margin:0% 0% 0% 10%;
     background-color: #3f3535a3;
@@ -45,7 +51,11 @@
  li span{
       color:antiquewhite;
    }
+
 #form {
+   margin-top: 100px;
+   margin-bottom: 70px;
+   padding:25px;
    display: flex;
    justify-content: space-evenly;
 }
@@ -115,3 +125,49 @@ textarea{
 .pinfo #button{
    justify-self:center;
 }
+
+.bg{
+    margin:auto;
+    background-image: url(image.jpg);
+    width:270px;
+    height:350px;
+    background-size: cover;
+    display:flex;
+    background-color: none;
+    position:sticky;
+}
+
+
+
+.cardtitle{
+    margin-top: 10px;
+    text-align: center;
+    background-color:#000000c6;
+}
+
+.des1{
+     margin-top: 10px;
+    text-align: center;
+}
+
+.des2{
+     margin-top: 5px;
+    text-align: center;
+}
+
+.icons{
+     margin-top: 10px;
+    text-align: center;
+}
+
+
+.cardcontent , .cardcontent * {
+    background-color: transparent;
+}
+.cardcontent{
+    background-color: #000000bb;
+    backdrop-filter: blur(4px);
+    margin-top: 82%;
+    width:100%;  
+}
+
