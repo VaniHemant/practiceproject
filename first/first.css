@@ -156,10 +156,13 @@ textarea{
 }
 
 .icons{
+
      margin-top: 10px;
     text-align: center;
+    display:flex;
+    justify-content: center;
+    gap:30px;
 }
-
 
 .cardcontent , .cardcontent * {
     background-color: transparent;
