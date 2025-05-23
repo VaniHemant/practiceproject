@@ -8,13 +8,15 @@
 
 .hero{
    display: flex;
-   
 }
+
 #hero1{
    height: 100%;
    width: 100%;
    display: flex;
    flex-direction:column;
+   gap:25px;
+   margin-bottom: 25px;
 }
 
  #title {
@@ -34,7 +36,6 @@
 
  #list {
     padding:5% 10%;
-    
  }
  
  .list h2{
@@ -59,6 +60,7 @@
    display: flex;
    justify-content: space-evenly;
 }
+
  #form form{
    
    justify-items:center;
@@ -189,6 +191,44 @@ textarea{
       }
       #form2{
          width:60%;
+         align-self: center;
+      }
+}
+
+@media(max-width:400px){
+      .hero{
+         flex-direction:column;
+      }
+      #form{
+         flex-direction:column;
+         gap:40px;
+         margin-top: 25px;
+      }
+      #form1{
+         width:80%;
+         align-self: center;
+      }
+      #form2{
+         width:80%;
+         align-self: center;
+      }
+}
+
+@media(max-width:900px){
+      .hero{
+         flex-direction:column;
+      }
+      #form{
+         flex-direction:column;
+         gap:40px;
+         margin-top: 25px;
+      }
+      #form1{
+         width:40%;
+         align-self: center;
+      }
+      #form2{
+         width:40%;
          align-self: center;
       }
 }
